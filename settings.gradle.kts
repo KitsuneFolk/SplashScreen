@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "SplashScreen"
 include(":app")
- 
+include(":splashscreen")

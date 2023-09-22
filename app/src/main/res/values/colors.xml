@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- BlueTheme -->
+    <color name="BlueTheme_colorPrimary">#3232FF</color>
+    <color name="BlueTheme_colorPrimaryDark">#2626C5</color>
+    <color name="BlueTheme_colorAccent">#FF1FF4</color>
+    <color name="BlueTheme_colorBackground">#4B68FF</color>
+    <color name="BlueTheme_textColorSecondary">#F0DBD8</color>
 </resources>

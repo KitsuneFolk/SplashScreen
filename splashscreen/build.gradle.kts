@@ -1,18 +1,16 @@
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     id("org.jetbrains.kotlin.android")
 }
 
 android {
     namespace = "com.pandacorp.splashscreen"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.pandacorp.splashscreen"
         minSdk = 21
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -22,11 +20,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = "17"
+        jvmTarget = "1.8"
     }
 }
 
@@ -35,7 +33,4 @@ dependencies {
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-
-    implementation(project(":splashscreen"))
 }
