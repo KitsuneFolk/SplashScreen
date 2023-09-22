@@ -5,4 +5,4 @@ plugins {
     id("com.android.library") version "8.1.0" apply false
     id("org.jlleitschuh.gradle.ktlint") version "11.5.1" apply false
 }
-apply (from = "gradle/ktlint.gradle.kts")
+apply(from = "gradle/ktlint.gradle.kts")

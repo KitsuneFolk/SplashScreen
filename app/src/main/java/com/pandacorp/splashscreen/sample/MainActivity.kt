@@ -1,7 +1,7 @@
 package com.pandacorp.splashscreen.sample
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.pandacorp.splashscreen.R
 import com.pandacorp.splashscreen.SplashScreen.Companion.installSplashScreen
 
