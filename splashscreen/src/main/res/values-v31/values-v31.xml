@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.SplashScreen" parent="Base.Theme.SplashScreen">
+    <style name="Theme.SplashScreen" parent="Base.Theme.SplashScreen.DayNight">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowSplashScreenAnimatedIcon">?windowSplashScreenAnimatedIcon</item>
         <item name="android:windowSplashScreenBackground">?windowSplashScreenBackground</item>

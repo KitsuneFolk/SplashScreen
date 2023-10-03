@@ -21,11 +21,10 @@
     android:animateLayoutChanges="false"
     android:fitsSystemWindows="false">
 
-    <ImageView
-        android:id="@+id/splashscreen_icon_view"
-        android:layout_width="?attr/splashScreenIconSize"
-        android:layout_height="?attr/splashScreenIconSize"
-        android:layout_gravity="center"
-        android:importantForAccessibility="no" />
+  <ImageView
+      android:id="@+id/splashscreen_icon_view"
+      android:layout_width="?attr/splashScreenIconSize"
+      android:layout_height="?attr/splashScreenIconSize"
+      android:layout_gravity="center"/>
 
 </FrameLayout>
